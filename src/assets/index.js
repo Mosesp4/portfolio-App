@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import vite from "./tech/vite.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -18,16 +19,20 @@ import tailwind from "./tech/tailwind.png";
 // import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import solidity from "./tech/Sol1.png";
+import figma from "./tech/figma.png";
+import mongoDB from "./tech/mongodb.png";
 import ethers from "./tech/ethersJS.png";
-
-// import meta from "./company/meta.png";
-// import shopify from "./company/shopify.png";
-// import starbucks from "./company/starbucks.png";
-// import tesla from "./company/tesla.png";
-
+import next from "./tech/next.png";
+import chatGenius from "./chatGenius.png";
+import yoga from "./yoga.png";
 import breedsavvy from "./breedsavvy.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import SendEth from "./SendEth.png"
+import promptpal from "./promptpal.png"
+import exchange2 from "./exchange2.png"
+import Exchange1 from "./exchange1.png"
+import Sipsponsor from "./Sipsponsor.png";
+import SparkLink from "./sparklink.png";
+
 
 export {
   logo,
@@ -36,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  live,
   menu,
   close,
   css,
@@ -43,18 +49,25 @@ export {
   html,
   hardhat,
   javascript,
+  vite,
   nodejs,
   reactjs,
   tailwind,
-  // typescript,
   threejs,
-  // meta,
-  // shopify,
-  // starbucks,
-  // tesla,
- breedsavvy,
-  jobit,
-  tripguide,
+  mongoDB,
+  next,
+  figma,
+  Sipsponsor,
+  SparkLink,
+  promptpal,
+  // typescript,
+  chatGenius,
+  yoga,
+  breedsavvy,
+  Exchange1,
+  exchange2,
+
+  SendEth,
   solidity,
   ethers,
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 
 const SkillLevel = () => {
@@ -29,9 +30,9 @@ const SkillLevel = () => {
           Skill Experience.
         </h2>
         <p className={`${styles.sectionSubText} text-center`}>
-          Stacks i have worked with so far
+         Technologies and languages i have worked with so far
         </p>
-      <div className=" grid grid-cols-2 gap-4 mx-5 my-8  overflow-y-scroll h-40">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 gap-4 mx-5 my-8 overflow-y-scroll sm:h-40 ">
         {skills.map((skill, index) => (
           <motion.div
             key={index}
@@ -55,4 +56,5 @@ const SkillLevel = () => {
   );
 };
 
-export default SkillLevel;
+export default SectionWrapper(SkillLevel, "skills");
+

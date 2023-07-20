@@ -49,25 +49,21 @@ const About = () => {
           className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] "
           style={{}}
         >
-          As an entry-level frontend and solidity developer, I am passionate
-          about blockchain technology and AI, and I bring a strong foundation in
-          HTML5, CSS, and JavaScript. I have hands-on experience with popular
-          libraries and frameworks like React JS and NextJs, allowing me to
-          create responsive and dynamic web applications. Additionally, I am
-          proficient in CSS libraries such as Tailwind, Material UI, and Chakra
-          UI, enabling me to design modern and visually appealing user
-          interfaces. Having worked with design tools like Figma and Adobe
-          Illustrator, I possess a keen eye for aesthetics and user-centric
-          design principles. I am a quick learner, eager to expand my knowledge
-          and skills in this ever-evolving field. With a strong attention to
-          detail and a problem-solving mindset, I strive to deliver efficient,
-          scalable, and high-quality code. As an individual committed to
-          continuous growth, I am open to exploring opportunities that align
-          with my expertise. I am eager to contribute to innovative projects and
-          collaborate with diverse teams to drive impactful results. If you are
-          seeking a dedicated and motivated developer with a passion for
-          cutting-edge technologies, I am ready to make a meaningful
-          contribution to your organization.
+          I'm a versatile developer with expertise in frontend
+          development and Solidity programming. I'm passionate about crafting
+          engaging and user-friendly websites and web applications as i'm 
+          well-versed in frameworks like React and Nextjs.
+          Additionally, I have a keen interest in
+          blockchain technology and have specialized in Solidity, enabling me to
+          build decentralized applications (DApps) on Ethereum. However, I'm not
+          limited to the blockchain world. I'm also open to working on exciting
+          projects in the web2 space. <br/> Collaboration, problem-solving, and
+          continuous learning are at the core of my approach, and I love to stay
+          up-to-date with the latest tech trends. Let's collaborate and create
+          something remarkable together, be it a cutting-edge DApp or a
+          captivating web experience. Looking forward to exploring new
+          possibilities with you! Feel free to get in touch, and let's bring
+          your ideas to life!
         </motion.p>
       </div>
 
