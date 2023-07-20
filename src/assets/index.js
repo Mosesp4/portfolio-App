@@ -29,9 +29,9 @@ import breedsavvy from "./breedsavvy.png";
 import SendEth from "./SendEth.png"
 import promptpal from "./promptpal.png"
 import exchange2 from "./exchange2.png"
-import Exchange1 from "./exchange1.png"
-import Sipsponsor from "./Sipsponsor.png";
-import SparkLink from "./sparklink.png";
+import exchange1 from "./exchange1.png"
+import sipsponsor from "./Sipsponsor.png";
+import sparkLink from "./sparklink.png";
 
 
 export {
@@ -57,14 +57,14 @@ export {
   mongoDB,
   next,
   figma,
-  Sipsponsor,
-  SparkLink,
+  sipsponsor,
+  sparkLink,
   promptpal,
   // typescript,
   chatGenius,
   yoga,
   breedsavvy,
-  Exchange1,
+  exchange1,
   exchange2,
 
   SendEth,

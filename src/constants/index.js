@@ -11,16 +11,16 @@ import {
   git,
   solidity,
   breedsavvy,
-  Exchange1,
+  exchange1,
   exchange2,
   promptpal,
   yoga,
    SendEth,
-   Sipsponsor,
+   sipsponsor,
   next,
   figma,
   mongoDB,
-  SparkLink,
+  sparkLink,
   threejs,
   ethers,
   vite,
@@ -320,10 +320,10 @@ const projects = [
 
       
     ],
-    image: Exchange1,
+    image: exchange1,
     source_code_link: "https://github.com/Mosesp4/DeFi-React-UI",
 
-    image: Exchange1,
+    image: exchange1,
     live_project: "https://de-fi-react-ui.vercel.app/",
   },
 
@@ -412,10 +412,10 @@ const projects = [
 
       
     ],
-    image: Sipsponsor,
+    image: sipsponsor,
     source_code_link: "https://github.com/Mosesp4/SipSponsor",
 
-    image: Sipsponsor,
+    image: sipsponsor,
     live_project: "https://sip-sponsor.vercel.app/",
   },
 
@@ -468,10 +468,10 @@ const projects = [
 
       
     ],
-    image: SparkLink,
+    image: sparkLink,
     source_code_link: "https://github.com/Mosesp4/Sparklink",
 
-    image: SparkLink,
+    image: sparkLink,
     live_project: "https://sparklink-mosesp4.vercel.app/",
   },
 
