@@ -31,7 +31,7 @@ import promptpal from "./promptpal.png"
 import exchange2 from "./exchange2.png"
 import exchange1 from "./exchange1.png"
 import sipsponsor from "./Sipsponsor.png";
-import sparkLink from "./sparklink.png";
+import sparkLink from "./SparkLink.png";
 
 
 export {
