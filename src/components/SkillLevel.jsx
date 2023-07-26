@@ -20,19 +20,22 @@ const SkillLevel = () => {
     { name: 'Git', level: 'Intermediate', progress: '70%' },
     { name: 'Material UI', level: 'Intermediate', progress: '60%' },
     { name: 'MongoDB', level: 'Intermediate', progress: '70%' },
-    { name: 'REST-API', level: 'Intermediate', progress: '70%' },
+    // { name: 'REST-API', level: 'Intermediate', progress: '70%' },
   ];
 
   return (
     <div className="flex justify-center items-center">
-    <div className="container mx-auto mt-8">
+    <div className="container mx-auto mt-3">
       <h2 className={`${styles.sectionHeadText} text-center`}>
           Skill Experience.
         </h2>
         <p className={`${styles.sectionSubText} text-center`}>
          Technologies and languages i have worked with so far
         </p>
-      <div className=" grid grid-cols-1 sm:grid-cols-2 gap-4 mx-5 my-8 overflow-y-scroll sm:h-40 ">
+      <div 
+      className="h-60 overflow-x-hidden grid grid-cols-1 sm:grid-cols-2  
+      gap-4 mx-5 my-8 sm:h-50  overflow-y-scroll"
+      >
         {skills.map((skill, index) => (
           <motion.div
             key={index}
@@ -57,4 +60,9 @@ const SkillLevel = () => {
 };
 
 export default SectionWrapper(SkillLevel, "skills");
+
+
+
+
+
 
