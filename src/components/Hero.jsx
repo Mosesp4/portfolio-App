@@ -1,5 +1,6 @@
 import { styles } from "../styles";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 import dev from "../assets/dev.png";
 //import { motion } from "framer-motion";
 // import Sphere from ".components/sphere";
@@ -21,7 +22,7 @@ const Hero = () => {
         </h3>
         <div className="text-4xl flex justify-center mt- gap-5 py-3 text-gray-300 dark:text-gray-400">
           <a href="https://github.com/Mosesp4">
-            <AiFillTwitterCircle />
+            <FaGithub />
           </a>
           <a href="https://www.linkedin.com/in/moses-echela-78845b260/">
             <AiFillLinkedin />
