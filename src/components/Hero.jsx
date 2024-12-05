@@ -17,10 +17,10 @@ const Hero = () => {
           Hi, I'm <span className="text-[#ff6600]">Moses</span>
         </h1>
         <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-          Blockchain & Frontend Developer.
+          FRONTEND & MERN-Stack Developer
         </h3>
         <div className="text-4xl flex justify-center mt- gap-5 py-3 text-gray-300 dark:text-gray-400">
-          <a href="https://twitter.com/EchelaMose22774">
+          <a href="https://github.com/Mosesp4">
             <AiFillTwitterCircle />
           </a>
           <a href="https://www.linkedin.com/in/moses-echela-78845b260/">
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative mx-auto bg-gradient-to-r from-white to-white rounded-full w-80 h-80 mt-2 md:h-96 md:w-96">
+      <div className="relative mx-auto bg-gradient-to-r from-white to-white rounded-full w-60 h-60 mt-2 md:h-96 md:w-96">
         <img
           src={dev}
           alt="hero image"

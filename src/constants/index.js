@@ -10,13 +10,15 @@ import {
   tailwind,
   git,
   solidity,
+  mernpg,
   breedsavvy,
-  exchange1,
+  brainWave,
+  iphone,
   exchange2,
   promptpal,
   yoga,
-   SendEth,
-   sipsponsor,
+  SendEth,
+  sipsponsor,
   next,
   figma,
   mongoDB,
@@ -49,12 +51,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "FRONT-END DEVELOPER",
+    title: "FRONT-END DEVELOPMENT",
     icon: web,
   },
   {
-    title: "SOLIDITY DEVELOPER",
-    icon: mobile,
+    title: "MERN-STACK",
+    icon: mernpg,
   },
   {
     title: "BLOCKCHAIN TECHNOLOGY",
@@ -79,25 +81,25 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  
+
   {
     name: "React JS",
     icon: reactjs,
   },
- 
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
- 
+
   {
     name: "Solidity",
     icon: solidity,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
   {
     name: "git",
     icon: git,
@@ -133,13 +135,13 @@ const experiences = [
     title: "JavaScript",
     company_name: "Core Skills",
     iconBg: "#383E56",
-   
+
     points: [
       "Solid understanding of JavaScript fundamentals, including variables, data types, operators, control structures, functions, and objects",
       "Experience with DOM manipulation using JavaScript, including event handling and manipulation of HTML and CSS elements.",
       "Understanding of asynchronous programming concepts and proficiency in using Promises and async/await syntax.",
       "Ability to write clean and maintainable code, following best practices and design patterns.",
-      "Strong problem-solving skills, including the ability to debug code and troubleshoot issues effectively."
+      "Strong problem-solving skills, including the ability to debug code and troubleshoot issues effectively.",
     ],
   },
   {
@@ -169,12 +171,11 @@ const experiences = [
   },
 ];
 
-
 const projects = [
   {
     name: "SendEth (web3)",
     description:
-      "Introducing SendEth, your gateway to seamless and secure Ethereum transactions on the web3 blockchain. With SendEth, sending Ethereum from one person to another has never been easier. SendEth provides you with a clear and comprehensive record of all your Ethereum transfers with gif, allowing you to monitor and review your activity at any time.",
+      "Introducing SendEth, your gateway to seamless and secure Ethereum transactions on the web3 blockchain. With SendEth, sending Ethereum from one person to another has never been easier.",
     tags: [
       {
         name: "react",
@@ -204,26 +205,37 @@ const projects = [
     live_project: "https://send-eth-drab.vercel.app/",
   },
   {
-    name: "BreedSaavy",
+    name: "Animated Apple Iphone 3D Website",
     description:
-      "Discover the fascinating world of dogs like never before with BreedSavvy, the ultimate web app designed exclusively for dog lovers. Introducing BreedSavvy, an innovative feature within PawFolio that empowers you to explore and understand your canine companion in a whole new light.",
+      "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     tags: [
       {
-        name: "reactjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
         name: "Tailwind",
         color: "green-text-gradient",
       },
-      
+      {
+        name: "Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "blue-text-gradient",
+      },
     ],
 
-    image: breedsavvy,
-    source_code_link: "https://github.com/Mosesp4/breedSavvy",
+    image: iphone,
+    source_code_link: "https://github.com/Mosesp4/iphone",
 
-    image: breedsavvy,
-    live_project: "https://breed-savvy.vercel.app/",
+    image: iphone,
+    live_project: "https://iphone-beta-pearl.vercel.app/",
   },
 
   {
@@ -247,7 +259,6 @@ const projects = [
         name: "vite",
         color: "white",
       },
-      
     ],
 
     image: promptpal,
@@ -256,88 +267,53 @@ const projects = [
     image: promptpal,
     live_project: "https://promptpal-two.vercel.app/",
   },
-  
-  {
-    name: "MoSwap UI",
-    description:
-      "Welcome to MoSwap, a stunning Reactjs and Vanilla CSS creation that brings the excitement of a real crypto swap landing page right to your screen. Immerse yourself in the world of digital assets and experience the future of cryptocurrency trading with our meticulously designed user interface.",
-    tags: [
-      {
-        name: "Reactjs",
-        color: "blue-text-gradient",
-      },
-      // {
-      //   name: "supabase",
-      //   color: "green-text-gradient",
-      // },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-
-      
-    ],
-    image: exchange1,
-    source_code_link: "https://github.com/Mosesp4/DeFi-React-UI",
-
-    image: exchange1,
-    live_project: "https://de-fi-react-ui.vercel.app/",
-  },
 
   {
-    name: "CryptoWatch",
+    name: "BreedSaavy",
     description:
-    "Introducing CryptoWatch, the ultimate web app designed to keep you updated on the latest cryptocurrency prices. With Crypto Watch, you'll never miss a beat in the dynamic world of digital assets. Stay ahead of the game with real-time price updates for a wide range of cryptocurrencies. Our web app brings together a comprehensive collection of crypto data, providing you with instant access to the prices of popular coins and tokens. From Bitcoin and Ethereum to altcoins and stablecoins, CryptoWatch covers it all.",
+      "Discover the fascinating world of dogs like never before with BreedSavvy, the ultimate web app designed exclusively for dog lovers. Introducing BreedSavvy, an innovative feature within PawFolio that empowers you to explore and understand your canine companion in a whole new light.",
     tags: [
       {
-        name: "Reactjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
         name: "Tailwind",
         color: "green-text-gradient",
       },
-      {
-        name: "Vite",
-        color: "pink-text-gradient",
-      },
-
-      
     ],
-    image: exchange2,
-    source_code_link: "https://github.com/Mosesp4/CoinWatch/tree/main",
 
-    image: exchange2,
-    live_project: "https://coin-watch-azure.vercel.app/",
+    image: breedsavvy,
+    source_code_link: "https://github.com/Mosesp4/breedSavvy",
+
+    image: breedsavvy,
+    live_project: "https://breed-savvy.vercel.app/",
   },
 
   {
-    name: "Breathe & Balance",
+    name: "BRAINWAVE: AI Chatting UI",
     description:
-      "With our user-friendly interface, booking your desired yoga session has never been easier. Browse through the available classes, check schedules, and secure your spot with just a few clicks. Say goodbye to phone calls and lengthy registration processes. BREATHE & BALANCE streamlines the booking experience for ultimate convenience.",
+      "Designed and implemented a responsive AI chat interface using React.js and Tailwind CSS, providing a business solution for companies leveraging AI to automate customer service processes.",
     tags: [
       {
         name: "Reactjs",
-        color: `{white}`,
+        color: "blue-text-gradient",
       },
       // {
       //   name: "supabase",
       //   color: "green-text-gradient",
       // },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
-
-      
     ],
-    image: yoga,
-    source_code_link: "https://github.com/Mosesp4/yoga",
+    image: brainWave,
+    source_code_link: "https://github.com/Mosesp4/BrainWave-UI",
 
-    image: yoga,
-    live_project: "https://yoga-ebon-alpha.vercel.app",
+    image: brainWave,
+    live_project: "brain-wave-ui-jade.vercel.app",
   },
-
 
   {
     name: "Sipsponsor (web3)",
@@ -364,49 +340,12 @@ const projects = [
         name: "typescript",
         color: "white",
       },
-
-
-
-      
     ],
     image: sipsponsor,
     source_code_link: "https://github.com/Mosesp4/SipSponsor",
 
     image: sipsponsor,
     live_project: "https://sip-sponsor.vercel.app/",
-  },
-
-
-  {
-    name: "Chat-Genius",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "Reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vite",
-        color: "pink-text-gradient",
-      },
-
-      {
-        name: "express",
-        color: "pink-text-gradient",
-      },
-
-      
-    ],
-    image: chatGenius,
-    source_code_link: "https://github.com/Mosesp4/Chat-Genius",
-
-    image: chatGenius,
-    live_project: "https://chat-genius-1j1o361kc-mosesp4.vercel.app/?vercelToolbarCode=wRFFrprS13V2Vd0",
   },
 
   {
@@ -422,8 +361,6 @@ const projects = [
         name: "Tailwind css ",
         color: "pink-text-gradient",
       },
-
-      
     ],
     image: sparkLink,
     source_code_link: "https://github.com/Mosesp4/Sparklink",
@@ -431,9 +368,6 @@ const projects = [
     image: sparkLink,
     live_project: "https://sparklink-mosesp4.vercel.app/",
   },
-
-
-
 ];
 
 export { services, technologies, experiences, projects };

@@ -46,24 +46,27 @@ const About = () => {
       <div className="mt-4 flex justify-center">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] "
+          className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
           style={{}}
         >
-          I'm a versatile developer with expertise in frontend
-          development and Solidity programming. I'm passionate about crafting
-          engaging and user-friendly websites and web applications as i'm 
-          well-versed in frameworks like React and Nextjs.
-          Additionally, I have a keen interest in
-          blockchain technology and have specialized in Solidity, enabling me to
-          build decentralized applications (DApps) on Ethereum. However, I'm not
-          limited to the blockchain world. I'm also open to working on exciting
-          projects in the web2 space. <br/> Collaboration, problem-solving, and
-          continuous learning are at the core of my approach, and I love to stay
-          up-to-date with the latest tech trends. Let's collaborate and create
-          something remarkable together, be it a cutting-edge DApp or a
-          captivating web experience. Looking forward to exploring new
-          possibilities with you! Feel free to get in touch, and let's bring
-          your ideas to life!
+          I am a skilled Frontend and MERN-Stack Developer with over 3 years of
+          experience, specializing in building intuitive, scalable user
+          interfaces and contributing to DeFi blockchain projects, healthcare
+          innovations, and energy management solutions. Proficient in React.js,
+          Next.js, TypeScript, as well as other Modern web technology, I’ve
+          improved user engagement by up to 40% and reduced app load times by
+          50%. My blockchain contributions, including DApp development and
+          wallet integrations, have driven 20% user adoption growth. Having
+          worked remotely with global company & startups like GRANDIDA, ENZUM &
+          WeCovr, I thrive in collaborative environments, achieving measurable
+          successes such as 40% increases in product marketing successes and
+          improving user satisfaction ratings by 25%. <br /> <br />
+          I’m open to exciting opportunities where I can transform ideas into
+          seamless user experiences, whether as a full-time team member or on a
+          part-time contract, based on project demands. If you’re looking for a
+          dedicated professional to deliver measurable results and create
+          impactful solutions, feel free to reach out. Let’s build something
+          incredible together!
         </motion.p>
       </div>
 
