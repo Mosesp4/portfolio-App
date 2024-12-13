@@ -35,6 +35,7 @@ import exchange2 from "./exchange2.png";
 import exchange1 from "./exchange1.png";
 import sipsponsor from "./Sipsponsor.png";
 import sparkLink from "./SparkLink.png";
+import homedock from "./homedoc.png";
 
 export {
   logo,
@@ -48,6 +49,7 @@ export {
   close,
   css,
   mernpg,
+  homedock,
   iphone,
   git,
   html,

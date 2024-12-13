@@ -16,6 +16,7 @@ import {
   iphone,
   exchange2,
   promptpal,
+  homedock,
   yoga,
   SendEth,
   sipsponsor,
@@ -63,8 +64,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "TECHNICAL WRITER",
-    icon: creator,
+    title: "UI/UX DEVELOPMENT",
+    icon: figma,
   },
 ];
 
@@ -172,6 +173,34 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Homedock",
+    description:
+      " Homedock is a fully functional e-commerce website built to reflect my creativity, speed and precision. Starting from a Figma design prototype to a complete intuitive User-interface.",
+    tags: [
+      {
+        name: "next",
+        color: "white",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "white",
+      },
+      {
+        name: "shadcn",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: homedock,
+    source_code_link: "https://github.com/Mosesp4/SendETH",
+
+    image: homedock,
+    live_project: "https://e-commerce-website-ruby-theta-30.vercel.app/",
+  },
   {
     name: "SendEth (web3)",
     description:
