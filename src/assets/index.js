@@ -36,6 +36,7 @@ import exchange1 from "./exchange1.png";
 import sipsponsor from "./Sipsponsor.png";
 import sparkLink from "./SparkLink.png";
 import homedock from "./homedoc.png";
+import educal from "./educal.png";
 
 export {
   logo,
@@ -70,6 +71,7 @@ export {
   typescript,
   chatGenius,
   yoga,
+  educal,
   breedsavvy,
   exchange1,
   exchange2,

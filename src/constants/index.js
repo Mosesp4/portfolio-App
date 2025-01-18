@@ -18,6 +18,7 @@ import {
   promptpal,
   homedock,
   yoga,
+  educal,
   SendEth,
   sipsponsor,
   next,
@@ -196,7 +197,7 @@ const projects = [
       },
     ],
     image: homedock,
-    source_code_link: "https://github.com/Mosesp4/SendETH",
+    source_code_link: "https://github.com/Mosesp4/eCommerce-Website",
 
     image: homedock,
     live_project: "https://e-commerce-website-ruby-theta-30.vercel.app/",
@@ -295,6 +296,28 @@ const projects = [
 
     image: promptpal,
     live_project: "https://promptpal-two.vercel.app/",
+  },
+
+  {
+    name: "Educal",
+    description:
+      "The most effective educational website using React JS and TailwindCSS. Showcasing smooth and user-centric design",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+
+    image: educal,
+    source_code_link: "https://github.com/Mosesp4/Educal/",
+
+    image: educal,
+    live_project: "https://educal-six.vercel.app/",
   },
 
   {
